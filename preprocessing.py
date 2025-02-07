@@ -19,7 +19,7 @@ def preprocess_input(age, asa_n, anesthesia_nc, smoking, hypertension, dialysis,
 
     # Ensure all expected columns exist
     expected_columns = [
-        "Age", "ASA_n", "anesthesia_nc_General", "anesthesia_nc_Regional",
+        "Age", "ASA_n", "anesthesia_nc_Regional",
         "anesthesia_nc_Spinal", "anesthesia_nc_MAC", "Smoke_n_Yes",
         "Hypertension_n_Yes", "Dialysis_n_Yes", "Chornic_Steroid_n_Yes", "Diabetes_nc_Yes"
     ]
